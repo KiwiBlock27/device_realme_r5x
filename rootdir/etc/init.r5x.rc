@@ -75,3 +75,13 @@ on property:vendor.post_boot.parsed=1
     # Back to default VM settings
     write /proc/sys/vm/dirty_expire_centisecs 3000
     write /proc/sys/vm/dirty_background_ratio 10
+
+    # Sound Control permissions
+on property:sys.boot_completed=1
+    chown system system /sys/kernel/sound_control/headphone_gain
+    chown system system /sys/kernel/sound_control/mic_gain
+    chown system system /sys/kernel/sound_control/speaker_gain
+    restorecon_recursive /sys/kernel/sound_control
+    chmod 0660 /sys/kernel/sound_control/headphone_gain
+    chmod 0660 /sys/kernel/sound_control/mic_gain
+    chmod 0660 /sys/kernel/sound_control/speaker_gain
