@@ -2,12 +2,12 @@
     {
         "repository":   "kernel_realme_r5x",
         "target_path":  "kernel/realme/r5x",
-        "branch":       "OSS"
+        "branch":       "ELIXIR-13.0"
     },
     {
         "repository":   "vendor_realme_r5x",
         "target_path":  "vendor/realme/r5x",
-        "branch":       "Trinket",
+        "branch":       "ELIXIR-13.0",
         "remote":       "KiwiBlock27"
     }
 ]
