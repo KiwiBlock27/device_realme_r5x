@@ -7,3 +7,4 @@ git clone --depth=1 https://github.com/KiwiBlock27/kernel_realme_r5x -b ELIXIR-1
 # Display Hal
 rm -rf hardware/qcom-caf/sm8150/display
 git clone --depth=1 https://github.com/KiwiBlock27/hardware_qcom_display.git -b sm8150 hardware/qcom-caf/sm8150/display
+vendorsetup.sh
