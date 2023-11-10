@@ -1,8 +1,8 @@
 # Vendor Tree
-git clone --depth=1 https://github.com/KiwiBlock27/vendor_realme_r5x -b Trinket vendor/realme/r5x
+git clone --depth=1 https://github.com/KiwiBlock27/vendor_realme_r5x -b ELIXIR-13.0 vendor/realme/r5x
 
 # Kernel Tree
-git clone --depth=1 https://github.com/KiwiBlock27/kernel_realme_r5x -b OSS kernel/realme/r5x
+git clone --depth=1 https://github.com/KiwiBlock27/kernel_realme_r5x -b ELIXIR-13.0 kernel/realme/r5x
 
 # Viper Fx
 git clone --depth=1 https://github.com/KiwiBlock27/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
